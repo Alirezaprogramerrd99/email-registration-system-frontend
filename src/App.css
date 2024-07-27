@@ -19,7 +19,7 @@ body {
   width: 100%;
 }
 
-button {
+.op-button {
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -30,7 +30,7 @@ button {
   font-size: 16px;
 }
 
-button:hover {
+.op-button:hover {
   background-color: #0056b3;
 }
 
@@ -40,7 +40,18 @@ h1 {
 
 .link-button {
   display: inline-block;
+  background-color: #ff2f00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
   margin: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.link-button:hover{
+  background-color: #b33417;
 }
 
 .link-button button {

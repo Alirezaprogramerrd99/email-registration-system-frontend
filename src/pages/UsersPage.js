@@ -23,12 +23,12 @@ function UsersPage() {
     return (
         <div className="users-page">
             <h2>Users Page</h2>
-            <button onClick={() => setActiveComponent('UserList')}>Show User List</button>
-            <button onClick={() => setActiveComponent('AddUser')}>Add User</button>
 
-            <div className="link-button">
-                <Link to="/"><button>Back to Main</button></Link>
-            </div>
+
+            <button className="op-button" onClick={() => setActiveComponent('UserList')}>Show User List</button>
+            <button className="op-button" onClick={() => setActiveComponent('AddUser')}>Add User</button>
+
+            <Link to="/"><button className="link-button">Back to Main</button></Link>
             
             <div className="component-container">
             {renderComponent()}

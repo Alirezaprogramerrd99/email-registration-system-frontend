@@ -39,7 +39,7 @@ const AddLetter = () => {
                     required
                 />
                 
-                <button type="submit">Add Letter</button>
+                <button className= "op-button" type="submit">Add</button>
             </form>
         </div>
     );

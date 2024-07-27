@@ -32,7 +32,7 @@ const AddUser = () =>{
                 required
                 />
 
-                <button type="submit">Add User</button>
+                <button className="op-button" type="submit">Add</button>
 
             </form>
 

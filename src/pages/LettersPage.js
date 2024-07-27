@@ -25,13 +25,12 @@ function LettersPage() {
     return (
         <div className="letters-page">
             <h2>Letters Page</h2>
-            <button onClick={() => setActiveComponent('LetterList')}>Show Letter List</button>
-            <button onClick={() => setActiveComponent('AddLetter')}>Add Letter</button>
 
-            <div className="link-button">
-                <Link to="/"><button>Back to Main</button></Link>
-            </div>
 
+            <button className="op-button" onClick={() => setActiveComponent('LetterList')}>Show Letter List</button>
+            <button className="op-button" onClick={() => setActiveComponent('AddLetter')}>Add Letter</button>
+
+            <Link to="/"><button className="link-button">Back to Main</button></Link>
 
             <div className="component-container">
                 {renderComponent()}
