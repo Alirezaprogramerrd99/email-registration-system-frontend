@@ -23,6 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 
-app.test.js
-reportWebVitals.js
-setupTests.js
+/src/app.test.js
+/src/reportWebVitals.js
+/src/setupTests.js
